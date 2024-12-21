@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(169, 206, 168);
+}
+#head{
+    height: 10%;
+    background-color: white;
+    position: absolute;
+
+    font-size: 50px;
+}
+#box{
+    overflow: hidden;
+    height: 80%;
+    width: 80%;
+    background-color: white;
+    border-radius: 10px;
+}
+#ptop{
+    padding: 0 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    width: 100%;
+    height: 80px;
+    background-color: rgb(32, 98, 32);
+}
+.elem{
+    
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: 19px;
+   
+}
+.value{
+    display: flex;
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+    color: rgba(56, 163, 56, 0.851);
+    height: 25px;
+    width: 25px;
+    background-color: white;
+    border-radius: 5px;
+    font-weight: 500;
+}
+#pbtm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+    height: calc(100% - 80px) ;
+    width: 100%;
+    padding: 20px;
+}
+.bubble{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 68px;
+    width: 68px;
+    border-radius: 50%;
+    background-color: rgb(72, 104, 72);
+}
+.bubble:hover{
+    cursor: pointer;
+    background-color: rgb(49, 70, 49);
+}
+.over{
+    font-weight: 600;
+    font-size: larger;
+}
+#btn{
+    height: 40px;
+    width: 100px;
+    color: rgb(51, 104, 49);
+    font-weight: 600;
+}
+#btn:hover{
+    cursor:pointer;
+}
