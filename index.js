@@ -1,5 +1,5 @@
 function bubbleGame(){
-    var timerval=3;
+    var timerval=60;
     var hitval=0;
     var score= document.querySelector("#score");
     score.textContent=0;
