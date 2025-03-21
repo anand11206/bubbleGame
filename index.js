@@ -7,7 +7,7 @@ function bubbleGame(){
     
     function bubbleMaker(){
         var clutter="";
-        for (var i =0; i<90;i++){
+        for (var i =0; i<72;i++){
             var n = Math.floor(Math.random()*10)
             clutter+=`            <div class="bubble">${n}</div>
         `;
