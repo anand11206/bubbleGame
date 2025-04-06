@@ -4,10 +4,14 @@ function bubbleGame(){
     var score= document.querySelector("#score");
     score.textContent=0;
     var pbtm=document.querySelector("#pbtm");
-    
+    const height = Number(getComputedStyle(document.querySelector("#pbtm")).height.replace("px",""))
+    const width = Number(getComputedStyle(document.querySelector("#pbtm")).width.replace("px",""))
+    const number = (height/88) * (width/88) ; 
+    console.log(number, height, width);
     function bubbleMaker(){
+        
         var clutter="";
-        for (var i =0; i<72;i++){
+        for (var i =0; i<number; i++){
             var n = Math.floor(Math.random()*10)
             clutter+=`            <div class="bubble">${n}</div>
         `;

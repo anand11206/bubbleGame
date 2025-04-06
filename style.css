@@ -10,9 +10,18 @@ html,body{
 }
 body{
     display: flex;
+    flex-direction: column;
+    
     justify-content: center;
     align-items: center;
     background-color: rgb(169, 206, 168);
+}
+.heading{
+    color: rgb(32, 98, 32);
+    font-size: xx-large;
+    font-weight: 600;
+    
+    margin: 10px;
 }
 #head{
     height: 10%;
